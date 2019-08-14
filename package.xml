@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>NewsModules_FixCatalogRule</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license>GNU General Public License (GPL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Fix catalog price rules disappear overnight.</summary>
+    <description>Fix catalog price rules disappear overnight.&#xD;
+&#xD;
+The specified versions are tested versions. The module may also work on other versions.</description>
+    <notes>Fix catalog price rules disappear overnight.</notes>
+    <authors><author><name>Alessandro Lioce</name><user>alioce</user><email>a.lioce@ne-ws.it</email></author></authors>
+    <date>2014-06-11</date>
+    <time>13:23:05</time>
+    <contents><target name="magecommunity"><dir name="NewsModules"><dir name="FixCatalogRule"><dir name="Model"><file name="Observer.php" hash="198dc76fded9e4dceeed4134391b82d7"/></dir><dir name="etc"><file name="config.xml" hash="a08e5e83696f41831178692092761767"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="NewsModules_FixCatalogRule.xml" hash="a2459f0919a34a1de8860f1ca56b27fa"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.13</min><max>5.4.29</max></php></required></dependencies>
+</package>
