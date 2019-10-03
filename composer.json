@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/NewsModules_FixCatalogRule",
+    "name": "OpenMageModuleFostering\/NewsModules_FixCatalogRule",
     "type": "magento-module",
     "license": "GNU-General-Public-License-(GPL)",
     "homepage": "",
     "description": "Fix catalog price rules disappear overnight.",
     "authors": [
-    {
-        "name": "Alessandro Lioce",
-        "email": "a.lioce@ne-ws.it"
-    }
-],
+        {
+            "name": "Alessandro Lioce",
+            "email": "a.lioce@ne-ws.it"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
